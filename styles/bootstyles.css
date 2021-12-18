@@ -1,0 +1,50 @@
+
+.container{
+    width: 500px;
+    margin-left: 30%;
+}
+.header-products{
+        grid-row: 1;
+        grid-column: 1 / span 3;
+        color: darkgray;
+        margin: 0px;
+        text-align: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    list-style: none;
+    flex-direction: row;
+    height: 180px;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    border-bottom-color: pink;
+        }
+.menu a{
+    font-size: 20px;
+    grid-row: 2;
+    color: pink;
+    text-align: center;}
+.menu h1{
+    grid-row: 1;
+    grid-column: 3;
+    color: pink;
+    font-family:fantasy;
+    font-size: 30px;
+}
+    
+.menu a:hover {
+        font-size: 25px;}
+
+body{background-image: url(../images/marble.jpeg);}
+
+
+p{
+    color: black;
+}
+h4{
+    color: black;
+    text-align: left;
+}
